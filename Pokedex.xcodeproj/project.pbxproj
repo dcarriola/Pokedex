@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1152FB011CD8A6AE00ABDE1B /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1152FB001CD8A6AE00ABDE1B /* PokemonDetailVC.swift */; };
 		11BFC2A81CD7A5B600C7BA9D /* pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11BFC2A71CD7A5B600C7BA9D /* pokemon.ttf */; };
 		11BFC2AA1CD7A8FE00C7BA9D /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11BFC2A91CD7A8FE00C7BA9D /* music.mp3 */; };
 		11C8A8751CD78594000EC537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C8A8741CD78594000EC537 /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1152FB001CD8A6AE00ABDE1B /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 		11BFC2A71CD7A5B600C7BA9D /* pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pokemon.ttf; sourceTree = "<group>"; };
 		11BFC2A91CD7A8FE00C7BA9D /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		11C8A8711CD78594000EC537 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				11C8A8761CD78594000EC537 /* ViewController.swift */,
+				1152FB001CD8A6AE00ABDE1B /* PokemonDetailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				TargetAttributes = {
 					11C8A8701CD78594000EC537 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = NYQ5MASGC8;
 					};
 				};
 			};
@@ -199,6 +203,7 @@
 				11C8A88D1CD79518000EC537 /* PokeCell.swift in Sources */,
 				11C8A8771CD78594000EC537 /* ViewController.swift in Sources */,
 				11C8A88F1CD79DD1000EC537 /* CSV.swift in Sources */,
+				1152FB011CD8A6AE00ABDE1B /* PokemonDetailVC.swift in Sources */,
 				11C8A8751CD78594000EC537 /* AppDelegate.swift in Sources */,
 				11C8A88A1CD78B35000EC537 /* Pokemon.swift in Sources */,
 			);
@@ -315,6 +320,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Pokedex/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.carriola.Pokedex;
@@ -326,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Pokedex/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.carriola.Pokedex;
